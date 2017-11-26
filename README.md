@@ -6,9 +6,13 @@
 ![image](https://github.com/caiyishui/WaterFaceReg/blob/master/raw/333.png)
 
 处理流程与原理：
+
+
 第一步：
 1. NDK 环境
 2. 加载分类器 先加载资源的分类器
+
+
 第二步：
 3. 将java层的surface传递到JNI层形成对应的nativeWindow用于原生绘制.
 4. 在将画布传到 JNI层后，我们需要对加载来的bitmap执行识别工作。
